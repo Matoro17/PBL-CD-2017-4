@@ -1,0 +1,102 @@
+Version 9.0 Build 132 02/25/2009 SJ Web Edition
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+maquina_1
+# storage
+db|projeto.(1).cnf
+db|projeto.(1).cnf
+# case_insensitive
+# source_file
+maquina_1.bdf
+41afc4344d329cb35acf5e188e646c8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maquina_1:inst
+}
+# macro_sequence
+
+# end
+# entity
+maquina_2
+# storage
+db|projeto.(2).cnf
+db|projeto.(2).cnf
+# case_insensitive
+# source_file
+maquina_2.bdf
+ad83363958c271fda0cce91fa7c47e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maquina_2:inst1
+}
+# macro_sequence
+
+# end
+# entity
+maquina_3
+# storage
+db|projeto.(3).cnf
+db|projeto.(3).cnf
+# case_insensitive
+# source_file
+maquina_3.bdf
+8c673584732b75bfe9a2d798175be38
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maquina_3:inst3
+}
+# macro_sequence
+
+# end
+# entity
+projeto
+# storage
+db|projeto.(0).cnf
+db|projeto.(0).cnf
+# case_insensitive
+# source_file
+projeto.bdf
+34726f7f1ff18493743831f48cfdf9f5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

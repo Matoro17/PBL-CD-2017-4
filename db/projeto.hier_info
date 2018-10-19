@@ -1,0 +1,30 @@
+|projeto
+V_LED1 <= maquina_1:inst.V
+N0_BT1 => maquina_1:inst.N0
+N0_BT1 => maquina_3:inst3.N0
+CLK => inst5.IN0
+A_LED2 <= maquina_2:inst1.A
+N1_BT2 => maquina_2:inst1.N1
+B_LED3 <= maquina_3:inst3.B
+N2_BT3 => maquina_3:inst3.N2
+
+
+|projeto|maquina_1:inst
+V <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => M1.CLK
+N0 => M1.DATAIN
+
+
+|projeto|maquina_2:inst1
+A <= M2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => M2.CLK
+N1 => M2.DATAIN
+
+
+|projeto|maquina_3:inst3
+B <= M3.DB_MAX_OUTPUT_PORT_TYPE
+CLK => M3.CLK
+N0 => inst7.IN0
+N2 => inst6.IN0
+
+
